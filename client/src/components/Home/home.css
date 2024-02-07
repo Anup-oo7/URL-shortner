@@ -1,0 +1,45 @@
+.urlLists{
+    
+    background-color: bisque;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 5px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    text-align:center;
+    justify-content: space-around;
+    font-size: 20px;
+    font-weight: 600;
+}
+a{
+    text-decoration: none;
+    color: rgb(203, 69, 69);
+    
+}
+.urlLists button{
+    background: none;
+    border: none;
+    color:rgb(203, 69, 69);
+    &:hover{
+        color: rgb(240, 142, 142);;
+    }
+}
+.shorten{
+    padding: 5px 20px;
+    border-radius: 5px;
+    background-color: burlywood;
+    color: rgb(203, 69, 69);
+    margin: 10px;
+    font-weight: 600;
+    border: none;
+    &:hover{
+        background-color: rgb(203, 69, 69);
+        color:  burlywood;
+    }
+}
+.urlInput{
+    padding: 5px;
+    width: 50%;
+}
